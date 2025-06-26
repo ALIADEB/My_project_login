@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   bakend:
-    image: pro_login:v1
+    image: aliadeb/pro_login
     ports:
       - "8082:80"
   mysql:
