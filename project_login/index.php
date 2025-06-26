@@ -21,6 +21,7 @@ ob_end_flush();
         <a href="logout.php" class="btn btn-warning">Logout</a>
         <div>
             <br>
+            <img title="hello world" src="img.png">
             <br>
             <br>
             <br>
