@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  bakend:
+    image: logregistre
+    ports:
+      - "8082:80"
+  mysql:
+    image: mysql:8.0
+    ports:
+      - "3308:3306"
+    container_name: login
+    environment:
+      MYSQL_ROOT_PASSWORD: "ALI@3590@ALI"
+      MYSQL_DATABASE: login
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
