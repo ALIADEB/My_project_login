@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   bakend:
-    image: logregistre
+    image: pro_login:v1
     ports:
       - "8082:80"
   mysql:
