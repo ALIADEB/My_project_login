@@ -2,7 +2,7 @@
 
 $host= "mysql";
 $user= "root";
-$password = "ALI@3590@ALI";
+$password = "";
 $db = "login";
 
 try{
